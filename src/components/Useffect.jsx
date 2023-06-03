@@ -6,7 +6,7 @@ import './Useffect.css'
 const Useffect = () => {
   const [user,setUser] = useState([]);
   const getUser = async () => {
-    const response = await fetch('https://jsonplaceholder.ir/users');
+    const response = await fetch('https://api.github.com/users');
     setUser(await response.json());
     console.log(response.json)
   }
@@ -19,10 +19,11 @@ const Useffect = () => {
     {user.map((currentElement) => {
       return(
         <div className="card">
-        <img src={currentElement.avatar} ></img>
+        <img src={currentElement.avatar_url} ></img>
         <div className="container">
-          <h4><b>{currentElement.name}</b></h4>
-          <p>{currentElement.website}</p>
+          <h4><b>{currentElement.login}</b></h4>
+          <h4><b>{currentElement.html_url}</b></h4>
+          
         </div>
         </div>
 
