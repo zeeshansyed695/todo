@@ -3,11 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   margin: 50px;
- 
-  
-   
-   }
-
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 200px;
@@ -15,32 +11,27 @@
   text-align: center;
   font-family: arial;
   border-radius: 15px;
- 
-  
-  
  }
-  
-  
-   img{
+img{
     
     width: 100%;
-    
-   
-   }
-   .container{
-    color: rgb(19, 16, 16);
-  font-size: 15px;
-  
-  
-  
-    
-    
-   }
+    }
+   .name{
+    color: rgba(124, 4, 4, 0.966);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.github{
+  color: rgb(19, 16, 16);
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
   
    .card:hover{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+  
   
   
  

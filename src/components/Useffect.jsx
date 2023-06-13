@@ -20,11 +20,11 @@ const Useffect = () => {
       return(
         <div className="card">
         <img src={currentElement.avatar_url} ></img>
-        <div className="container">
-          <h4><b>{currentElement.login}</b></h4>
-          <h4><b>{currentElement.html_url}</b></h4>
+        
+          <h4 className='namtag'>{currentElement.login}</h4>
+          <h4 className='github'>{currentElement.html_url}</h4>
           
-        </div>
+        
         </div>
 
       )
