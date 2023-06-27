@@ -21,7 +21,7 @@ const Useffect = () => {
         <div className="card">
         <img src={currentElement.avatar_url} ></img>
         
-          <h4 className='namtag'>{currentElement.login}</h4>
+          <h4 className='name'>{currentElement.login}</h4>
           <h4 className='github'>{currentElement.html_url}</h4>
           
         
